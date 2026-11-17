@@ -31,3 +31,7 @@ The browser loads four precomputed analytics views produced by the original Pyth
 335,355 events from 10,000 simulated players over 120 days. 3,405 training and 2,404 later, disjoint test players. First-week features predict no sessions at ages 7–20. ROC-AUC 0.826958; not accuracy or demonstrated real-world performance. Generator assumptions create learnable signal.
 
 See product documentation for KPI definitions, prioritization assumptions and proposed experiments. Proposed research has not been conducted. Implementation was built with AI coding assistance; evidence and limitations are documented explicitly.
+
+## Publication verification — November 17, 2026
+
+15 Python tests passed. Public browser checks passed for all four platform filters and mobile layout. No uncaught JavaScript errors were observed in these checks.
