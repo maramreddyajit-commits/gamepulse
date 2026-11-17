@@ -1,0 +1,1 @@
+export async function api(path){const platform=new URLSearchParams(path.split('?')[1]).get('platform')||'all';if(!['all','mobile','desktop','console'].includes(platform))throw Error('Unknown platform');const r=await fetch('./data/'+platform+'.json');if(!r.ok)throw Error('Unable to load analytics');return r.json();}
